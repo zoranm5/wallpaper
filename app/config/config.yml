@@ -76,3 +76,11 @@ knp_paginator:
        page_name: different                # page query parameter name
     template:
         pagination: '@KnpPaginator/Pagination/twitter_bootstrap_v3_pagination.html.twig'
+
+# Doctrine Migration
+
+doctrine_migrations:
+  dir_name: "%kernel.root_dir%/DoctrineMigrations"
+  namespace: Application\Migrations
+  table_name: migration_versions
+  name: Application Migrations
